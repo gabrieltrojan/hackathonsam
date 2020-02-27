@@ -1,0 +1,303 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+html{
+  overflow-x: hidden;
+}
+
+body{
+}
+
+header {
+  box-shadow: 0 0 1em rgba(56,96,165,0.15);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.site-id {
+  z-index: 102;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 82px;
+  margin: 28px 0 28px 255px;
+  z-index: 1;
+}
+
+.icon {
+  margin: 12px;
+  z-index: 1;
+  height: 25px;
+}
+
+nav li a {
+  text-decoration: none;
+  display: block;
+}
+
+header nav {
+  min-height: 2em;
+}
+
+header nav li {
+  display: inline-block;
+  margin: 1em;
+  min-width: 6em;
+  font-weight: bold;
+}
+
+header nav li a {
+  text-align: center;
+  color : black;
+  font-size: 20px;
+}
+
+.ext{
+  max-width: 280px;
+  text-align: center;
+}
+
+.extension a{
+  color: white;
+  font-weight: normal;
+  text-decoration: none;
+  background-color: #00ecb2;
+  border-radius: 1em;
+  padding: 15px 25px;
+}
+
+.header-image img {
+  width: 550px;
+  position: absolute;
+  right: 0;
+  z-index: -5;
+}
+
+.main-content {
+  width: 520px;
+  margin: 173px 0 115px 250px;
+}
+
+.koala-image img {
+  width: 600px;
+  position: absolute;
+  right: 200px;
+  z-index: -4;
+  transform: translateY(-338px);
+}
+
+.patte-image img {
+  height: 120px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  transform: translateY(-60px);
+}
+
+.partners {
+  background-color: #f7f9fc;
+  padding: 60px 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.partner {
+  height: 41px;
+}
+
+.left-image img {
+  width: 200px;
+  position: absolute;
+  left:0;
+  z-index: -4;
+  transform: translateY(-50px);
+
+}
+
+.content {
+  margin: 115px 250px;
+  overflow: hidden;
+}
+.content .gauche {
+  float: left;
+  margin: 5px 180px 5px 0;
+  height: 400px;
+}
+.content .droite {
+  float: right;
+  margin: 5px 0 5px 180px;
+  height: 400px;
+}
+.content p {
+  overflow: hidden;
+}
+.content a {
+  color: #00ecb2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.haut-image img {
+  height: 275px;
+  position: absolute;
+  right:0;
+  z-index: -4;
+  transform: translateY(-275px);
+}
+
+.stats {
+  padding: 4em 250px;
+  background-image: linear-gradient(to right, #00ebb1, #00cda0);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.stats-item {
+  text-align: center;
+  color: white;
+  margin: 1em;
+  flex-basis: 17em;
+  flex-grow: 1;
+}
+
+.bas-image img {
+  position: absolute;
+  left:0;
+  right:0;
+  z-index: -4;
+}
+
+.content2 {
+  margin: 150px 250px;
+  text-align: center;
+}
+
+.plante-image img {
+  height: 150px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  z-index: -4;
+  transform: translateY(-140px);
+}
+
+.right-image img {
+  width: 200px;
+  position: absolute;
+  right:0;
+  z-index: -4;
+  transform: translateY(-275px);
+}
+
+.more {
+  background-color: #f7f9fc;  
+}
+
+.more h2 {
+  color: #9bb1c8;
+  padding-bottom: 50px;
+}
+
+.talk {
+  padding: 100px 250px;
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-item {
+  margin: 1em;
+  flex-basis: 17em;
+  flex-grow: 1;
+}
+
+.list-item .name {
+  font-weight: bold;
+  color: #00ecb2;
+}
+
+.questions{
+  background-color: #f7f9fc;
+  padding-bottom: 150px;
+  text-align: center;
+}
+
+.question{
+  text-align: left;    
+  margin: 15px 250px;
+  padding: 37px 45px 15px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(56, 96, 165, 0.15);
+  background-color: #ffffff;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer {
+  min-height: 200px;
+  padding: 0em 250px;
+  color : black;
+}
+.footer-content{
+  padding: 12px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.sam{
+  display: flex;
+}
+
+.mini-logo{
+  max-height: 50px;
+}
+
+.logo-desc{
+  margin-top: 34px;
+}
+
+.terms li {
+  display: inline-block;
+  min-width: 12em;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+}
+
+footer .gris{
+  color: #9bb1c8;
+}
+
+footer nav li {
+  margin: 1em 1em 1em 0em;
+  min-width: 6em;
+}
